@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container" id="contain">
+
+        <header>
+            <div class="logo">
+                <a href="#"><img src="./imags/logo.png" alt=""></a>
+            </div>
+            <ul id="nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <div id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="text">
+                <h2>iphone 13 pro max</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea temporibus enim excepturi voluptas.
+                </p>
+                <a href="#" class="btn" id="btn"> all products</a>
+            </div>
+            <div class="image">
+                <img id="img" src="./imags/0.png">
+            </div>
+        </div>
+
+        <div class="icons" id="icon">
+            <img onclick=" changeimg(this.src); colors('#000') " src="./imags/0.png" >
+            <img onclick=" changeimg(this.src); colors('#247ec8') " src="./imags/1.png" >
+            <img onclick=" changeimg(this.src); colors('#1e1e1e') " src="./imags/2.png" >
+            <img onclick=" changeimg(this.src); colors('#c79b53') " src="./imags/3.png" >
+            <img onclick=" changeimg(this.src); colors('#c82525') " src="./imags/4.png" >
+        </div>
+
+    </div>
+
+<script src="./JS/main.js"></script>
+</body>
+</html>
